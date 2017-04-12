@@ -3,6 +3,8 @@
  */
 function drag() {
     var id=document.getElementById('id');
+    var disX=0;
+    var disY=0;
     id.onclick=function () {
         alert('hello')
     }
